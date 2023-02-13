@@ -1,0 +1,241 @@
+/* Global Stuff */
+html {
+    font-size: 62.5%;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    overflow-x: hidden!important;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    color: #002C43;
+    background-color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 100%!important;
+    font-size: 1.7rem;
+    overflow-x: hidden!important;
+    height: 100%!important;
+    margin: 0;
+}
+body.noscroll {
+    overflow: auto!important;
+    position: fixed;
+}
+p {
+    font-size: 1.7rem;
+    margin: 0;
+    color: #002c43;
+}
+a {
+    text-decoration: none;
+    pointer-events: all;
+    color: #002c43;
+}
+h5 {
+    font-size: 18px;
+    color:#99ADB7 ;
+    font-weight: 500;
+}
+
+
+/* Curriculum Page Css
+
+*/
+.site-logo {
+    margin-right: 50px;
+
+}
+.header {
+    display: flex;
+    padding: 30px;
+}
+.header nav {
+    display: flex;
+    gap: 25px;
+}
+.header nav a {
+    color:#99ADB7 ;
+    font-weight: 500;
+}
+.sign-in {
+    position: fixed;
+    right: 50px;
+}
+.sign-in a {
+    color:#99ADB7 ;
+}
+
+.side-menu .side-menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.side-menu {
+    max-width: 300px;
+    background-color: #e8faf1;
+    padding: 24px 32px;
+}
+.main-section {
+    max-width: 900px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+.text-blocks p {
+    font-size: 20px;
+}
+
+.text-blocks .block-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    max-height: 30px;
+    padding: 40px 0;
+}
+.text-blocks .block-links a {
+    color: #25A0F5;
+    font-weight: 500;
+}
+footer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 0;
+    background-color: #002C43;
+}
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer nav ul li a {
+    color: white;
+}
+.copyrights a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 25px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Old CSS *//*
+
+
+body {
+    height: 125vh;
+    margin-top: 80px;
+    padding: 30px;
+    background-size: cover;
+    font-family: sans-serif;
+    }
+
+    header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 25px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    }
+
+    header * {
+    display: inline;
+    }
+
+    header li {
+    margin: 20px;
+    }
+
+    header li a {
+    color: rgb(190, 188, 188);
+    text-decoration: none;
+    }
+
+
+.container{
+        border: 3px solid lightgray;
+        display: flex;
+        flex-direction: row;
+        align-content: space-between ;
+        text-justify: newspaper;
+        text-align: justify;
+        font-size: small;
+        font-display: Impact;
+        text-indent: 20px;
+
+
+}
+.container1{
+    border: 3px solid lightgray;
+    display: flex;
+    align-content: space-between ;
+    text-justify: newspaper;
+    text-align: justify;
+    font-size: small;
+    font-display: Impact;
+    text-indent: 20px;
+    justify-content: space-between;
+
+}
+.box1{
+    width: 90rem;
+    height: 20rem;
+    background-color: darkblue;
+    flex-direction: row;
+    box-sizing: inherit;
+}
+.body{
+    display: block;
+}
+
+.box{
+    width: 20rem;
+    height: 50rem;
+    background: #d5f4ebeb;
+    margin-top: 9rem;
+    margin-left: 5rem;
+}
+.list{
+    list-style: none;
+}
+*/
